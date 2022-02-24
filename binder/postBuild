@@ -1,3 +1,5 @@
 set -ex
 
 jupyter labextension install jupyterlab-plotly
+
+jupyter trust *.ipynb
